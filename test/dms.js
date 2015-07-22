@@ -18,7 +18,8 @@ describe('dms', function() {
 
   it('requestConfig', function() {
     dms.enabled = true;
-    return dms.requestConfig(config.user, config.password).should.eventually.have.property('name').equals('BroadSoft BroadTouch Business Communicator PC Config');
+    return dms.requestConfig(config.user, config.password)
+      .should.eventually.have.property('name').equals('BroadSoft BroadTouch Business Communicator PC Config');
   });
 
   it('requestConfig with enabled = false', function() {
