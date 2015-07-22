@@ -1,0 +1,36 @@
+{
+  "name": "webrtc-dms",
+  "version": "0.0.1",
+  "description": "dms module for webrtc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "http-browserify": "1.7.0",
+    "jshashes": "^1.0.5",
+    "q": "1.4.1",
+    "xml2js": "0.4.9"
+  },
+  "devDependencies": {
+    "webrtc-core": "BroadSoft-Xtended/Library-WebRTC-Core.git",
+    "templatizer": "1.2.1",
+    "mocha": "2.1.0",
+    "jsdom": "3.1.0",
+    "mocha-jsdom": "0.2.0",
+    "expect": "1.6.0",
+    "mocha-bamboo-reporter": "1.0.6",
+    "stylus": "^0.48.1",
+    "cssmin": "0.4.2",
+    "stylus-font-face": "1.0.0",
+    "extend": "3.0.0",
+    "chai": "1.9.1",
+    "chai-as-promised": "4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:BroadSoft-Xtended/Library-WebRTC-DMS.git"
+  },
+  "author": "Dominik Steiner",
+  "license": "ISC"
+}
