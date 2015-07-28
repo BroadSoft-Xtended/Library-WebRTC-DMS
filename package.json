@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "http-browserify": "1.7.0",
-    "jshashes": "^1.0.5",
+    "jquery": "2.1.4",
+    "jshashes": "1.0.5",
     "q": "1.4.1",
     "xml2js": "0.4.9"
   },
