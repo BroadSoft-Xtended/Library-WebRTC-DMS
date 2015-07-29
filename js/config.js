@@ -1,7 +1,7 @@
 module.exports = {
 	enabled: true,
-    xspHosts: ['dev-node.broadsoftlabs.com'],
-    port: 5060,
+    xspHosts: ['xsp1.broadsoftlabs.com', 'xsp2.broadsoftlabs.com'],
+    port: 443,
     domain: 'broadsoftlabs.com',
     deviceType: 'Business Communicator - PC'
 }
