@@ -2,7 +2,7 @@
 
 Retrieves device configuration via XSI.
 
-Model : bdsft_webrtc.default.dms
+Namespace : bdsft_webrtc.default.dms
 
 ## Configuration
 <a name="configuration"></a>
