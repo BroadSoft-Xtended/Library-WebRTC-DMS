@@ -8,7 +8,8 @@ describe('dms', function() {
 
   before(function() {
     test.createModelAndView('dms', {
-        dms: require('../')
+        dms: require('../'),
+        xsi: require('webrtc-xsi')
     });
     config = require('./config/default.json');
     try {

@@ -11,8 +11,6 @@ Property                 |Type     |Default                                     
 -------------------------|---------|---------------------------------------------------------------------|------------------------------------------------------------
 enabled                  |boolean  |true                                                                 |True if DMS is enabled
 deviceType        		|string  |Business Communicator - PC                    						|Device type to retrieve the config for
-domain        			|string  |broadsoftlabs.com 								                   |Domain for the XSI requests
-xspHosts        		|array  |['xsp1.broadsoftlabs.com', 'xsp2.broadsoftlabs.com']                    |URLs of the XSP hosts
 
 
 ## Method
