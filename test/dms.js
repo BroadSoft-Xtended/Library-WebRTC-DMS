@@ -1,16 +1,12 @@
-var test = require('../node_modules/webrtc-core/test/includes/common');
-var extend = require('extend');
-var chai = require("chai");
-chai.use(require("chai-as-promised"));
-var should = chai.should();
-
+test = require('bdsft-sdk-test').model;
 describe('dms', function() {
 
   before(function() {
     test.createModelAndView('dms', {
         dms: require('../'),
-        xsi: require('webrtc-xsi'),
-        request: require('webrtc-request')
+        xsi: require('bdsft-sdk-xsi'),
+        request: require('bdsft-sdk-request'),
+        debug: require('bdsft-sdk-debug')
     });
     config = require('./config/default.json');
     try {
